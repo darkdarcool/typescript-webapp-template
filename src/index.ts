@@ -3,6 +3,7 @@ declare var module: NodeHotModule;
 import message, { MessageContainer } from "./message";
 import GreeterWorker from "./workers/greeter.worker";
 
+
 const d = document;
 
 export function init(selector: string) {
